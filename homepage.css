@@ -15,10 +15,12 @@
 
 .header {
   position: absolute;
-  top: 30vh;
-  left: 8vw;
+  top: 18vh;
+  left: 9vw;
+  margin-right: 10vw;
   display:flex; 
   align-items: center;
+  overflow: hidden;
 }
 
 
@@ -65,11 +67,12 @@
 }
 .homepage-star21 {
   z-index: -2;
-  top: 70vh;
-  right: -3vw;
-  width: 40vw;
+  top: 40vh;
+  right: -30vw;
+  width: 80vw;
   position: absolute;
   overflow: hidden;
+  /* overflow-x: hidden; */
 }
 .homepage-text {
   /* top: 273px;
@@ -90,8 +93,8 @@
   text-decoration: none;
 }
 .homepage-text02 {
-  top: 84px;
-  left: 122px;
+  top: 5vh;
+  margin-left: 5vw;
   color: rgba(0, 0, 0, 1);
   width: 90px;
   height: auto;
@@ -109,8 +112,8 @@
   text-decoration: none;
 }
 .homepage-vector {
-  top: 105px;
-  left: 212px;
+  top: 8vh;
+  margin-left: 12vw;
   width: 27px;
   height: 34px;
   position: absolute;
@@ -123,16 +126,18 @@
   height: auto;
   /* position: absolute; */
   font-size: 3.5vw;
+  line-height: 7vh;
   align-self: auto;
   font-style: Regular;
   text-align: left;
   font-family: Arsenica Trial;
   font-weight: 400;
-  line-height: 106.5000057220459%;
+  /* line-height: 106.5000057220459%; */
   font-stretch: normal;
   margin-right: 5vw;
   margin-bottom: 0;
   text-decoration: none;
+  overflow: hidden;
 }
 .homepage-group114 {
   top: 367px;
@@ -420,9 +425,14 @@
 }
 
 p {
-  font-family: Space Mono;
-  line-height: 4vh;
-  font-size: 2.4vh;
+  /* font-family: Space Mono; */
+  line-height: 5vh;
+  font-size: 1.2vw;
+  overflow-y: hidden;
+}
+
+i {
+  overflow-y: hidden;
 }
 
 @keyframes rotating {
@@ -1405,6 +1415,7 @@ p {
   z-index: 123;
   overflow: hidden; /* HIDE SCROLL BAR */
   background: #fff;
+  opacity: 1;
   border-top: #000000 solid 1px;
   font-family: Space Mono;
 
@@ -1415,7 +1426,8 @@ p {
 
 /* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
 .hitem {
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
+  white-space: nowrap;
   /* width: 100%; */
   box-sizing: border-box;
   padding: 10px;
@@ -1427,7 +1439,7 @@ p {
 /* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
 @keyframes tickerh {
   0% { transform: translate3d(100%, 0, 0); }
-  100% { transform: translate3d(-150%, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
 }
 .hmove { animation: tickerh linear 30s infinite; }
 .hmove:hover { animation-play-state: paused; }

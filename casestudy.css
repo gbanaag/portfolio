@@ -1,0 +1,63 @@
+.study-heading {
+    background-color: #C9BAEA;
+    width: 35%;
+    height: 60vh;
+    margin-top: 10vh;
+    border: 1px solid #000000;
+    border-left: none;
+  }
+  
+  .study-heading2 {
+    background-color: white;
+    width: 65%;
+    height: 60vh;
+    margin-top: 10vh;
+    border: 1px solid #000000;
+    border-right: none;
+    border-left: none;
+  }
+
+  h2 {
+    font-family: Arsenica Trial;
+    font-style: italic;
+    font-weight: 300;
+    overflow: hidden;
+  }
+
+  b, p {
+    font-family: Josefin Sans;
+    overflow: hidden;
+  }
+
+  .big-text {
+    font-family: Arsenica Trial;
+    font-weight: 400;
+    overflow: hidden;
+    font-size: 3.5vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+  }
+
+  button {
+    font-family: Space Mono;
+    font-size: 1.3vw;
+    padding: 0.7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    /* width: 2vw; */
+    background: linear-gradient(90deg, #D4C1FE 0%, #B494FB 100%);
+    border-radius: 10vw;
+    border: 1px solid #000000;
+  }
+
+  .figma-button {
+    font-family: Space Mono;
+    font-size: 1.3vw;
+    padding: 0.7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    /* width: 2vw; */
+    background: linear-gradient(90deg,  #72eeba, #7ac1f0);
+    border-radius: 10vw;
+    border: 1px solid #000000;
+  }
